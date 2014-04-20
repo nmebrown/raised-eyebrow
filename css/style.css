@@ -32,4 +32,4 @@ overlap with the reset styles here; I prefer to keep the resets clean from styli
 updating the site cleaner and easier. Please make styling changes here.
 ----------------------------------------------------------------------------------------------------*/
 html, body { height: 100%; margin: 0; padding: 0; width: 100%; }
-body { background: #fff; color: #333; font: 16px/24px "Montserrat Bold","Montserrat Regular",Arial; }
+body { background: #fff; color: #333; font: 16px/24px "Montserrat Bold", "Montserrat Regular", Arial; }
