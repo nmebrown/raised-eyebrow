@@ -1,0 +1,35 @@
+
+/*----- VRS Main Stylesheet
+This is the main CSS file for the Vancouver Recital Society. All style changes are found here.
+
+CREDITS:
+- normalize.css - MIT License
+
+----------------------------------------------------------------------------------------------------*/
+
+
+/*----- Colour Scheme
+This is a list of commonly used colours and where they are typically found. Reference here if you
+are looking for a particular colour.
+
+Blue (Links, Footer): #0c75ad;
+Orange (H1, Action Buttons): #ef7700;
+Light Grey (Borders): #ddd;
+Very Light Grey (Background, Navs): #eee;
+----------------------------------------------------------------------------------------------------*/
+
+
+/*----- Table of Contents
+Use this section to find styles all throughout the stylesheet. Updated as necessary.
+------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------*/
+
+/*----- 01. Global Content Styles
+This section is for styles that are used site-wide. Styles for the base HTML elements (ex: p, img,
+input) as well as styles for commonly used, non-page-specific classes, go here. There is some
+overlap with the reset styles here; I prefer to keep the resets clean from styling, as it makes
+updating the site cleaner and easier. Please make styling changes here.
+----------------------------------------------------------------------------------------------------*/
+html, body { height: 100%; margin: 0; padding: 0; width: 100%; }
+body { background: #fff; color: #333; font: 16px/24px "Montserrat Bold","Montserrat Regular",Arial; }
