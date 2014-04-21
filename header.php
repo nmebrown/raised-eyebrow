@@ -7,13 +7,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
 
-    <title>Vancouver Recital Society</title>
+    <title><?php wp_title(); ?></title>
     <meta name="description" content="Vancouver Recital Society">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://take-flight.net/wordpress/wp-content/themes/raisedeyebrow/normalize.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
+    <?php wp_head(); ?>
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
