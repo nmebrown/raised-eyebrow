@@ -7,7 +7,7 @@ get_header(); ?>
 
 <div id="slideshow" class="container clear">
   <div class="image">
-    <img src="images/placeholder.png">
+    <img src="<?php echo get_template_directory_uri() . '/images/placeholder.png'; ?>">
   </div>
   <div class="caption">
     <h1>IESTYN DAVIES, COUNTERTENOR <br>THOMAS DUNFORD, LUTE</h1>

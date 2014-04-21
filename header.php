@@ -26,7 +26,7 @@
   <body <?php body_class(); ?>>
     <header>
       <div class="container clear">
-        <img src="images/logo.png" class="logo">
+        <img src="<?php echo get_template_directory_uri() . '/images/logo.png'; ?>"  class="logo">
 
         <div class="season-sponser">
           Season Sponsor

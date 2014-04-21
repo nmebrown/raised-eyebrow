@@ -6,7 +6,8 @@
 
  	  <footer class="container">
       <div class="clear">
-        <img src="images/logo.png" class="logo">
+        <img src="<?php echo get_template_directory_uri() . '/images/logo.png'; ?>"  class="logo">
+
         <ul class="social">
           <li>
             <a href="http://www.facebook.com/" class="fb">&nbsp;</a>

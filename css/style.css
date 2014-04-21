@@ -67,10 +67,10 @@ nav#navigation-main ul.menu li { border-right: 1px solid #b00068; float: left; m
 
 header ul.social { float: right; list-style: none; margin: 0; padding: 20px 0 0; }
 header ul.social li { float: left; height: 33px; margin: 0 0 0 5px; padding: 0; width: 33px; }
-header ul.social li a.fb { background: url("../images/fb-sprite-alt.png") top no-repeat; height: 33px; width: 33px; }
-header ul.social li a:hover.fb { background: url("../images/fb-sprite-alt.png") bottom no-repeat; text-decoration: none; }
-header ul.social li a.twt { background: url("../images/twt-sprite-alt.png") top no-repeat; height: 33px; width: 33px; }
-header ul.social li a:hover.twt { background: url("../images/twt-sprite-alt.png") bottom no-repeat; text-decoration: none; }
+header ul.social li a.fb { background: url("images/fb-sprite-alt.png") top no-repeat; height: 33px; width: 33px; }
+header ul.social li a:hover.fb { background: url("images/fb-sprite-alt.png") bottom no-repeat; text-decoration: none; }
+header ul.social li a.twt { background: url("images/twt-sprite-alt.png") top no-repeat; height: 33px; width: 33px; }
+header ul.social li a:hover.twt { background: url("images/twt-sprite-alt.png") bottom no-repeat; text-decoration: none; }
 
 
 /*----- Slideshow Styles -----*/
@@ -109,14 +109,14 @@ footer img.logo { float: left; height: auto; margin: 0 0 0 30px; width: 300px; }
 
 footer ul.social { float: right; list-style: none; margin: 0; padding: 0; }
 footer ul.social li { float: left; height: 33px; margin: 0 0 0 10px; padding: 0; width: 33px; }
-footer ul.social li a.fb { background: url("../images/fb-sprite.png") top no-repeat; height: 33px; width: 33px; }
-footer ul.social li a:hover.fb { background: url("../images/fb-sprite.png") bottom no-repeat; text-decoration: none; }
-footer ul.social li a.twt { background: url("../images/twt-sprite.png") top no-repeat; height: 33px; width: 33px; }
-footer ul.social li a:hover.twt { background: url("../images/twt-sprite.png") bottom no-repeat; text-decoration: none; }
-footer ul.social li a.yt { background: url("../images/yt-sprite.png") top no-repeat; height: 33px; width: 33px; }
-footer ul.social li a:hover.yt { background: url("../images/yt-sprite.png") bottom no-repeat; text-decoration: none; }
-footer ul.social li a.rss { background: url("../images/rss-sprite.png") top no-repeat; height: 33px; width: 33px; }
-footer ul.social li a:hover.rss { background: url("../images/rss-sprite.png") bottom no-repeat; text-decoration: none; }
+footer ul.social li a.fb { background: url("images/fb-sprite.png") top no-repeat; height: 33px; width: 33px; }
+footer ul.social li a:hover.fb { background: url("images/fb-sprite.png") bottom no-repeat; text-decoration: none; }
+footer ul.social li a.twt { background: url("images/twt-sprite.png") top no-repeat; height: 33px; width: 33px; }
+footer ul.social li a:hover.twt { background: url("images/twt-sprite.png") bottom no-repeat; text-decoration: none; }
+footer ul.social li a.yt { background: url("images/yt-sprite.png") top no-repeat; height: 33px; width: 33px; }
+footer ul.social li a:hover.yt { background: url("images/yt-sprite.png") bottom no-repeat; text-decoration: none; }
+footer ul.social li a.rss { background: url("images/rss-sprite.png") top no-repeat; height: 33px; width: 33px; }
+footer ul.social li a:hover.rss { background: url("images/rss-sprite.png") bottom no-repeat; text-decoration: none; }
 
 footer .copyright { margin-top: 30px; width: 100%; }
 footer .copyright ul { float: right; list-style: none; margin: 0; padding: 0; }
