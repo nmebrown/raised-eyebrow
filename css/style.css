@@ -88,9 +88,18 @@ header ul.social li a:hover.twt { background: url("images/twt-sprite-alt.png") b
 #main .content-feed,
 #main .sidebar-feed { box-sizing: border-box; display: block; height: 100%; float: left; max-width: 50%; width: 490px; }
 
-.content-feed { padding: 0 0 0 60px; }
-.sidebar-feed { padding: 0; }
+.content-feed { padding: 0 10px 0 60px; }
 
+article.post { margin: 0 0 40px; padding: 0; }
+article.post h1.entry-title { font-size: 14px; line-height: 20px; color: #eb008b; margin: 0; padding: 0; }
+article.post h1.entry-title a { color: #eb008b; }
+article.post h1.entry-title a:hover { color: #333; }
+
+article.post .entry-content { font-size: 14px; line-height: 20px; margin: 0; padding: 0; }
+
+
+	/*--- Sidebar Styles ---*/
+.sidebar-feed { padding: 0; }
 .subscription-feed { background: #eb008b; padding: 10px 10px 40px 40px; }
 .subscription-feed a { color: #fff; }
 .subscription-feed a:hover { color: #000; }

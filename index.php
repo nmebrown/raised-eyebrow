@@ -21,6 +21,24 @@ get_header(); ?>
 <div id="main" class="container clear">
   <div class="content-feed">
     <h1>Upcoming Concerts</h1>
+
+    <article class="post">
+      <h1 class="entry-title">
+        IESTYN DAVIES, COUNTERTENOR & THOMAS DUNFORD, LUTE
+      </h1>
+      <div class="entry-content">
+        <p>Sunday, Mar 30, 2014 | 3:00pm<br>Vancouver Playhouse</p>
+      </div>
+    </article>
+
+    <article class="post">
+      <h1 class="entry-title">
+        No Upcoming Concerts
+      </h1>
+      <div class="entry-content">
+        <p>No concerts are currently scheduled. Please check back again.</p>
+      </div>
+    </article>
   </div>
 
   <div class="sidebar-feed">
