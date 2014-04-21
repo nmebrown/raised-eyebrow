@@ -34,54 +34,75 @@ updating the site cleaner and easier. Please make styling changes here.
 html, body { height: 100%; margin: 0; padding: 0; width: 100%; }
 body { background: #000; color: #333; font: 14px/20px "Montserrat Bold", "Montserrat Regular", Arial; }
 .container { margin: 0 auto; width: 980px; }
-#main { background: #fff; padding: 30px 0 60px; }
+
 
 /*--- Micro-clearfix Hack ---*/
 .clear:before,
 .clear:after { content: " "; display: table; }
 .clear:after { clear: both; }
 
-h1, h2, h3, h4, h5, h6 { color: #333; text-transform: uppercase; }
+h1, h2, h3, h4, h5, h6 { color: #333; font-weight: normal; text-transform: uppercase; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #eb008b; }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: #333; }
-h1 { font-size: 24px; }
-h2 { font-size: 20px; }
-h3 { font-size: 16px; }
+h1 { font-size: 24px; line-height: 30px; }
+h2 { font-size: 20px; line-height: 24px; }
+h3 { font-size: 16px; line-height: 24px; }
 
 a { display: inline-block; font-size: 14px; color: #eb008b; text-decoration: none; }
 a:hover { color: #eb008b; text-decoration: underline; }
 
-/*----- Main Styles -----*/
+
+/*----- Header Styles -----*/
 header { background: #000; color: #fff; margin: 0; }
 
 header img.logo { height: auto; margin: 0 0 -8px; max-width: 100%; }
 
 nav#navigation-main { background: #eb008b; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4); color: #fff; font-size: 14px; margin: 0; padding: 10px 0; position: relative; text-align: center; text-transform: uppercase; z-index: 100; }
-nav#navigation-main a,
-nav#navigation-main a:hover { color: #fff; text-decoration: none; }
+nav#navigation-main a { color: #fff; font-weight: bold; text-decoration: none; }
+nav#navigation-main a:hover { color: #000; text-decoration: none; }
 nav#navigation-main ul { list-style: none; padding: 0; }
 nav#navigation-main ul li { border-right: 1px solid #b00068; float: left; margin: 0; padding: 10px 20px; }
 
-#slideshow { background: #000; height: 209px; padding: 0; }
-#slideshow h1 { color: #eb008b; font-size: 24px; }
 
+/*----- Slideshow Styles -----*/
+#slideshow { background: #000; height: 209px; padding: 0; }
+#slideshow .image,
+#slideshow .caption { box-sizing: border-box; display: inline-block; float: left; height: 209px; max-width: 50%; }
+
+#slideshow .caption { background: rgba(0, 0, 0, 1); color: #828282; padding: 30px 40px; }
+#slideshow .caption h1 { color: #eb008b; font-size: 24px; }
+
+
+/*----- Main Styles -----*/
+#main { background: #fff; padding: 30px 0 60px; }
+
+#main .content-feed,
+#main .sidebar-feed { box-sizing: border-box; display: block; height: 100%; float: left; max-width: 50%; width: 490px; }
+
+.content-feed { padding: 0 0 0 60px; }
+.sidebar-feed { padding: 0; }
+.sidebar-feed .subscription-feed { background: #eb008b; padding: 10px 10px 40px 40px; }
+
+
+/*----- Footer Styles -----*/
 footer { color: #828282; font-size: 12px; padding: 30px 0; }
 footer a { color: #828282; font-size: 12px; }
+footer a:hover { color: #828282; text-decoration: underline; }
 
 footer img.logo { float: left; height: auto; margin: 0; width: 300px; }
 
 footer ul.social { float: right; list-style: none; margin: 0; padding: 0; }
 footer ul.social li { float: left; height: 33px; margin: 0 0 0 10px; padding: 0; width: 33px; }
 footer ul.social li a.fb { background: url("../images/fb-sprite.png") top no-repeat; height: 33px; width: 33px; }
-footer ul.social li a:hover.fb { background: url("../images/fb-sprite.png") bottom no-repeat; }
+footer ul.social li a:hover.fb { background: url("../images/fb-sprite.png") bottom no-repeat; text-decoration: none; }
 footer ul.social li a.twt { background: url("../images/twt-sprite.png") top no-repeat; height: 33px; width: 33px; }
-footer ul.social li a:hover.twt { background: url("../images/twt-sprite.png") bottom no-repeat; }
+footer ul.social li a:hover.twt { background: url("../images/twt-sprite.png") bottom no-repeat; text-decoration: none; }
 footer ul.social li a.yt { background: url("../images/yt-sprite.png") top no-repeat; height: 33px; width: 33px; }
-footer ul.social li a:hover.yt { background: url("../images/yt-sprite.png") bottom no-repeat; }
+footer ul.social li a:hover.yt { background: url("../images/yt-sprite.png") bottom no-repeat; text-decoration: none; }
 footer ul.social li a.rss { background: url("../images/rss-sprite.png") top no-repeat; height: 33px; width: 33px; }
-footer ul.social li a:hover.rss { background: url("../images/rss-sprite.png") bottom no-repeat; }
+footer ul.social li a:hover.rss { background: url("../images/rss-sprite.png") bottom no-repeat; text-decoration: none; }
 
-footer .copyright { width: 100%; }
+footer .copyright { margin-top: 30px; width: 100%; }
 footer .copyright ul { float: right; list-style: none; margin: 0; padding: 0; }
 footer .copyright ul li { border-left: 1px solid #828282; float: left; margin: 0 10px 0 0; padding: 0 0 0 10px; }
 footer .copyright ul li:first-child { border-left: 0; }
