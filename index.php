@@ -23,19 +23,22 @@ get_header(); ?>
     <h1>Upcoming Concerts</h1>
 
     <article class="post">
-      <h1 class="entry-title">
-        IESTYN DAVIES, COUNTERTENOR & THOMAS DUNFORD, LUTE
-      </h1>
+      <img src="<?php echo get_template_directory_uri() . '/images/placeholder.png'; ?>" class="entry-image">
+
       <div class="entry-content">
+        <h1 class="entry-title">
+          IESTYN DAVIES, COUNTERTENOR
+          THOMAS DUNFORD, LUTE
+        </h1>
         <p>Sunday, Mar 30, 2014 | 3:00pm<br>Vancouver Playhouse</p>
       </div>
     </article>
 
     <article class="post">
-      <h1 class="entry-title">
-        No Upcoming Concerts
-      </h1>
       <div class="entry-content">
+        <h1 class="entry-title">
+          No Upcoming Concerts
+        </h1>
         <p>No concerts are currently scheduled. Please check back again.</p>
       </div>
     </article>
